@@ -36,6 +36,6 @@ class AppTest {
     @Test
     public void testNull(){
         assertFalse(App.search(null, 1));
-        //assertTrue(false);
+        //assertTrue(false); //fail etmesi gerekli yani falsse oldugu icin gecemedi testi
     }
 }
